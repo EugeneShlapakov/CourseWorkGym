@@ -1,0 +1,1890 @@
+@media only screen and (max-width: 480px) {
+    /*---------------------------navbar-----------------------------*/
+    .navbar{
+        z-index: 1;
+    }
+    .navbar-brand {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        text-align: center;
+    }
+    .navbar-brand img {
+        width: 70%;
+        height: 70%;
+    }
+    .right-menu{
+        display: none;
+    }
+    /*-----------------------------footer----------------------------*/
+    .footer {
+        background: #ecebeb;
+        /*margin-top: -130px;*/
+        /*Минус Высота футера*/
+        height: 130px;
+        /*Высота футера*/
+    }
+
+    .copyright {
+        /*margin: 50px auto;*/
+        border-top: 1px solid black; /* Линия сверху текста */
+        padding: 5px; /* Поля вокруг текста */
+        font-size: 12px;
+        text-align: center;
+    }
+    .footer-icons{
+        display: none;
+    }
+
+
+    /*-----------------------------coaches-------------------------- */
+    .coaches {
+        /*padding-bottom: 10px;*/
+        height: 550px;
+        padding-bottom: 10px;
+    }
+
+    .geometrycoach {
+        display: none;
+    }
+
+    .coaches h1 {
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 15px;
+        font-family: "Copperplate Gothic Light", sans-serif, Arial;
+    }
+
+    .ps a {
+        display: inline-block;
+        margin: 10px 10px;
+        width: 80px;
+        height: 80px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    .seсtion1 {
+        width: 200px;
+        margin: auto;
+        font-size: 15px;
+        text-align: center;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .name {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+
+    .border {
+        display: block;
+        margin: auto;
+        width: 160px;
+        height: 3px;
+        background: black;
+    }
+
+    /*---------------------------------gallery------------------------*/
+    .sliderdiv {
+
+        font-family: sans-serif;
+        overflow: hidden;
+        text-align: center;
+        height: 500px;
+    }
+
+    .slide img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel-inner {
+        width: 340px;
+        height: 190px;
+    }
+
+    #carouselExampleIndicators {
+        width: 340px;
+        height: 190px;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carousel-indicators{
+        margin: auto;
+    }
+    .carousel-control-next{
+        margin: auto;
+    }
+    .carousel-control-prev{
+        margin: auto;
+    }
+    /*----------------------------pricing--------------------*/
+
+
+    .pricing-table
+    {
+        background: url(price.jpg);
+        background-size: cover;
+        max-width: 500px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        height: 740px;
+        margin-bottom: 130px;
+    }
+    .col
+    {
+        margin-top: 15px;
+        flex: 25%;
+        padding: 10px;
+        width: 80px;
+        box-sizing: border-box;
+    }
+
+    .table
+    {
+        background: #fff;
+        padding: 10px 10px;
+        font-family: "montserrat", sans-serif;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 10px #00000070;
+        width: 220px;
+        height: 290px;
+        border-radius: 20px;
+        transition: 0.2s;
+    }
+    .table h2
+    {
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    .table ul
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .table ul li
+    {
+        padding: 5px 0;
+        list-style: none;
+    }
+
+    .price
+    {
+        font-size: 17px;
+        margin-bottom: 7px;
+    }
+
+    .price span
+    {
+        display: block;
+        font-size: 10px;
+    }
+    .table a
+    {
+        text-decoration: none;
+        color: #2c3e50;
+        border: 2px solid #2c3e50;
+        display: block;
+        padding: 10px 0;
+        margin: 10px 0;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-size: 10px;
+        transition: 0.25s linear
+    }
+    .table:hover {
+        transform: scale(1);
+    }
+/* -------------------------our gyms---------------------*/
+    .banner-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner-img h1 {
+        text-align: center;
+        color: #f9f9f9;
+        position: absolute;
+        top: 180px;
+        width: 100%;
+        font-family: Century Gothic, sans-serif;
+        font-size: 15px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        font-weight: 500;
+    }
+
+    .banner-img h2 {
+        display: none;
+    }
+
+    .our-gyms {
+        padding: 30px 0 0;
+    }
+
+    .gym-box {
+        margin: 15px 0;
+    }
+
+    .title-style h1 {
+        padding: 20px 0;
+        font-size: 25px;
+    }
+
+    .title-style {
+        margin: 80px auto 80px;
+        height: 65px;
+        width: 55%;
+        max-width: 700px;
+        background: white;
+        position: relative;
+        font-family: "Copperplate Gothic Light", sans-serif, Arial;
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+    }
+
+    .title-style::after {
+        content: '';
+        height: 70px;
+        width: 170px;
+        background-color: #959494;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        z-index: -1;
+    }
+
+    .title-style::before {
+        content: '';
+        height: 70px;
+        width: 170px;
+        background-color: #959494;
+        position: absolute;
+        bottom: -10px;
+        right: -10px;
+        z-index: -1;
+    }
+
+    .gym-img {
+        border: 1px solid #ecebeb;
+        position: relative;
+        margin-bottom: 220px;
+        width: 100%;
+        height: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        transition: transform .2s; /* Animation */
+    }
+
+    .gym-img:hover {
+        transform: scale(1);
+        z-index: 5;
+    }
+
+    .gym-img img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .block {
+        border: 1px solid #ecebeb;
+        background-color: rgba(236, 235, 235, 0.7);
+        padding: 10px;
+        text-align: center;
+        position: absolute;
+        top: 198px;
+        left: 15px;
+        right: 15px;
+        height: 200px;
+    }
+    /*----------------------Services--------------------------*/
+    .geometry{
+        display: none;
+    }
+    .service-img
+    {
+        border: 1px solid rgba(236, 235, 235, 0.9);
+        position: relative;
+        margin: 0 auto 15px ;
+        background-color: white;
+        width: 300px;
+        height: 510px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .service-img p
+    {
+        text-align: justify-all;
+        padding: 5px 25px;
+    }
+    .service-img h2
+    {
+        text-align: center;
+    }
+    .service-img img
+    {
+        float: left;
+        height: 200px;
+        width: 298px;
+        position:relative;
+    }
+    .col-centered
+    {
+        float: none;
+        margin: 0 auto;
+    }
+    .geometry img
+    {
+        position: absolute;
+        margin-left: 800px;
+        width: 500px;
+        height: 500px;
+    }
+    .service-img:hover
+    {
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+    /*---------------------------partners--------------------*/
+    .partners {
+        background-image: url("back.jpg");
+        background-size: cover;
+        font-family: "Copperplate Gothic Bold", Arial;
+    }
+
+    .partner-logo {
+        width: 180px;
+        height: 180px;
+        background: white;
+        border-radius: 50%;
+        margin: 20px auto 20px;
+        box-shadow: 0 2px 40px 0 rgba(110, 130, 208, .18);
+        text-align: center;
+        transition: transform .2s;
+    }
+
+    .partner-logo img {
+        width: 120px;
+        margin: 30px auto;
+    }
+
+    .partners-text h1 {
+        font-size: 25px;
+        padding: 25px 0;
+    }
+
+    .partners-text {
+
+        top: 20px;
+        margin: 80px auto 40px;
+        height: 80px;
+        width: 80%;
+        max-width: 700px;
+        background: rgba(238, 235, 235, 0.5);
+        position: relative;
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+    }
+
+    .partner-logo:hover {
+        transform: scale(1.2);
+        z-index: 5;
+    }
+    /*-----------------------------------maps---------------------------------*/
+    .google h1{
+        font-size: 25px;
+    }
+    #map {
+        height: 230px; /* The height is 400 pixels */
+        width: 360px; /* The width is the width of the web page */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .google {
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        background: none;
+        font-family: "Copperplate Gothic Bold", Arial;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width:768px) {
+      /*---------------------------navbar-----------------------------*/
+    .navbar{
+        z-index: 1;
+    }
+    .navbar-brand {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        text-align: center;
+    }
+    .navbar-brand img {
+        width: 70%;
+        height: 70%;
+    }
+    .right-menu{
+        display: none;
+    }
+    /*-----------------------------footer----------------------------*/
+    .footer {
+        background: #ecebeb;
+        /*margin-top: -130px;*/
+        /*Минус Высота футера*/
+        height: 130px;
+        /*Высота футера*/
+    }
+
+    .copyright {
+        margin: 50px auto;
+        border-top: 1px solid black; /* Линия сверху текста */
+        padding: 5px; /* Поля вокруг текста */
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer-icons {
+        display: none;
+
+    }
+
+    /*-----------------------------coaches-------------------------- */
+    .coaches {
+        /*padding-bottom: 10px;*/
+        height: 550px;
+        padding-bottom: 10px;
+    }
+
+    .geometrycoach {
+        display: none;
+    }
+
+    .coaches h1 {
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 22px;
+        font-family: "Copperplate Gothic Light", sans-serif, Arial;
+    }
+
+    .ps a {
+        display: inline-block;
+        margin: 10px 10px;
+        width: 120px;
+        height: 120px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    .seсtion1 {
+        width: 400px;
+        margin: auto;
+        font-size: 22px;
+        text-align: center;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .name {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 22px;
+    }
+
+    .border {
+        display: block;
+        margin: 15px auto 15px;
+        width: 160px;
+        height: 3px;
+        background: black;
+    }
+
+    /*---------------------------------gallery------------------------*/
+    .sliderdiv {
+
+        font-family: sans-serif;
+        overflow: hidden;
+        text-align: center;
+        height: 800px;
+    }
+
+    .slide img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel-inner {
+        width: 640px;
+        height: 360px;
+    }
+
+    #carouselExampleIndicators {
+        width: 640px;
+        height: 360px;
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carousel-indicators{
+        margin: auto;
+    }
+    .carousel-control-next{
+        margin: auto;
+    }
+    .carousel-control-prev{
+        margin: auto;
+    }
+    /*----------------------------pricing--------------------*/
+
+
+    .pricing-table
+    {
+        background: url(price.jpg);
+        background-size: cover;
+        max-width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        height: 1160px;
+        margin-bottom: 90px;
+    }
+    .col
+    {
+        margin-top: 15px;
+        flex: 25%;
+        padding: 10px;
+        width: 80px;
+        box-sizing: border-box;
+    }
+
+    .table
+    {
+        background: #fff;
+        padding: 10px 10px;
+        font-family: "montserrat", sans-serif;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 10px #00000070;
+        width: 420px;
+        height: 440px;
+        border-radius: 20px;
+        transition: 0.2s;
+    }
+    .table h2
+    {
+        text-transform: uppercase;
+        font-size: 38px;
+    }
+    .table ul
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .table ul li
+    {
+        padding: 7px 0;
+        font-size: 20px;
+        list-style: none;
+    }
+
+    .price
+    {
+        font-size: 37px;
+        margin-bottom: 5px;
+    }
+
+    .price span
+    {
+        display: block;
+        font-size: 30px;
+    }
+    .table a
+    {
+        text-decoration: none;
+        color: #2c3e50;
+        border: 2px solid #2c3e50;
+        display: block;
+        padding: 10px 0;
+        margin: 10px 0;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-size: 22px;
+        transition: 0.25s linear
+    }
+    .table:hover {
+        transform: scale(1);
+    }
+/* -------------------------our gyms---------------------*/
+    .banner-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner-img h1 {
+        text-align: center;
+        color: #f9f9f9;
+        position: absolute;
+        top: 240px;
+        width: 100%;
+        font-family: Century Gothic, sans-serif;
+        font-size: 35px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        font-weight: 500;
+    }
+
+    .banner-img h2 {
+        display: none;
+    }
+
+    .our-gyms {
+        padding: 30px 0 0;
+    }
+
+    .gym-box {
+        margin: 15px 0;
+    }
+
+    .title-style h1 {
+        padding: 20px 0;
+        font-size: 25px;
+    }
+
+    .title-style {
+        margin: 80px auto 80px;
+        height: 65px;
+        width: 55%;
+        max-width: 1000px;
+        background: white;
+        position: relative;
+        font-family: "Copperplate Gothic Light", sans-serif, Arial;
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+    }
+
+    .title-style::after {
+        content: '';
+        height: 70px;
+        width: 170px;
+        background-color: #959494;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        z-index: -1;
+    }
+
+    .title-style::before {
+        content: '';
+        height: 70px;
+        width: 170px;
+        background-color: #959494;
+        position: absolute;
+        bottom: -10px;
+        right: -10px;
+        z-index: -1;
+    }
+
+    .gym-img {
+        border: 1px solid #ecebeb;
+        position: relative;
+        margin-bottom: 280px;
+        width: 100%;
+        height: 150px;
+        margin-right: auto;
+        margin-left: auto;
+        transition: transform .2s; /* Animation */
+        /*font-size: 1px;*/
+    }
+
+    .gym-img:hover {
+        transform: scale(1.2);
+        z-index: 5;
+    }
+
+    .gym-img img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .block {
+        font-size: 15px;
+        border: 1px solid #ecebeb;
+        background-color: rgba(236, 235, 235, 0.7);
+        padding: 10px;
+        text-align: center;
+        position: absolute;
+        top: 138px;
+        left: 15px;
+        right: 15px;
+        height: 280px;
+    }
+    .block h2{
+        font-size: 22px;
+    }
+    /*----------------------Services--------------------------*/
+    .geometry{
+        display: none;
+    }
+    .service-img
+    {
+        border: 1px solid rgba(236, 235, 235, 0.9);
+        position: relative;
+        margin: 0 auto 15px ;
+        background-color: white;
+        width: 300px;
+        height: 510px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .service-img p
+    {
+        text-align: justify-all;
+        padding: 5px 25px;
+    }
+    .service-img h2
+    {
+        text-align: center;
+    }
+    .service-img img
+    {
+        float: left;
+        height: 200px;
+        width: 298px;
+        position:relative;
+    }
+    .col-centered
+    {
+        float: none;
+        margin: 0 auto;
+    }
+    .geometry img
+    {
+        position: absolute;
+        margin-left: 800px;
+        width: 500px;
+        height: 500px;
+    }
+    .service-img:hover
+    {
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+    /*---------------------------partners--------------------*/
+    .partners {
+        background-image: url("back.jpg");
+        background-size: cover;
+        font-family: "Copperplate Gothic Bold", Arial;
+    }
+
+    .partner-logo {
+        width: 120px;
+        height: 120px;
+        background: white;
+        border-radius: 50%;
+        margin: 20px auto 20px;
+        box-shadow: 0 2px 40px 0 rgba(110, 130, 208, .18);
+        text-align: center;
+        transition: transform .2s;
+    }
+
+    .partner-logo img {
+        width: 70px;
+        margin: 26px auto;
+    }
+
+    .partners-text h1 {
+        font-size: 25px;
+        padding: 25px 0;
+    }
+
+    .partners-text {
+
+        top: 20px;
+        margin: 80px auto 40px;
+        height: 80px;
+        width: 80%;
+        max-width: 700px;
+        background: rgba(238, 235, 235, 0.5);
+        position: relative;
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+    }
+
+    .partner-logo:hover {
+        transform: scale(1);
+        z-index: 5;
+    }
+    /*-----------------------------------maps---------------------------------*/
+    .google h1{
+        font-size: 25px;
+    }
+    #map {
+        height: 230px; /* The height is 400 pixels */
+        width: 360px; /* The width is the width of the web page */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .google {
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        background: none;
+        font-family: "Copperplate Gothic Bold", Arial;
+}
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width:1024px) {
+      /*---------------------------navbar-----------------------------*/
+    .navbar{
+        z-index: 1;
+    }
+    .navbar-brand {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        text-align: center;
+    }
+    .navbar-brand img {
+        width: 70%;
+        height: 70%;
+    }
+    .right-menu{
+        display: none;
+    }
+    /*-----------------------------footer----------------------------*/
+    .footer {
+        background: #ecebeb;
+        /*margin-top: -130px;*/
+        /*Минус Высота футера*/
+        height: 130px;
+        /*Высота футера*/
+    }
+
+    .copyright {
+        margin: 50px auto;
+        border-top: 1px solid black; /* Линия сверху текста */
+        padding: 5px; /* Поля вокруг текста */
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer-icons {
+        display: none;
+
+    }
+
+    /*-----------------------------coaches-------------------------- */
+    .coaches {
+        /*padding-bottom: 10px;*/
+        height: 550px;
+        padding-bottom: 10px;
+    }
+
+    .geometrycoach {
+        display: none;
+    }
+
+    .coaches h1 {
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 27px;
+        font-family: "Copperplate Gothic Light", sans-serif, Arial;
+    }
+
+    .ps a {
+        display: inline-block;
+        margin: 10px 10px;
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    .seсtion1 {
+        width: 400px;
+        margin: auto;
+        font-size: 27px;
+        text-align: center;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .name {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 27px;
+    }
+
+    .border {
+        display: block;
+        margin: 15px auto 15px;
+        width: 160px;
+        height: 3px;
+        background: black;
+    }
+
+    /*---------------------------------gallery------------------------*/
+    .sliderdiv {
+
+        font-family: sans-serif;
+        overflow: hidden;
+        text-align: center;
+        height: 800px;
+    }
+
+    .slide img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel-inner {
+        width: 640px;
+        height: 360px;
+    }
+
+    #carouselExampleIndicators {
+        width: 640px;
+        height: 360px;
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carousel-indicators{
+        margin: auto;
+    }
+    .carousel-control-next{
+        margin: auto;
+    }
+    .carousel-control-prev{
+        margin: auto;
+    }
+    /*----------------------------pricing--------------------*/
+
+
+    .pricing-table
+    {
+        background: url(price.jpg);
+        background-size: cover;
+        max-width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        height: 1360px;
+        margin-bottom: 90px;
+    }
+    .col
+    {
+        margin-top: 15px;
+        flex: 25%;
+        padding: 10px;
+        width: 80px;
+        box-sizing: border-box;
+    }
+
+    .table
+    {
+        background: #fff;
+        padding: 10px 10px;
+        font-family: "montserrat", sans-serif;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 10px #00000070;
+        width: 400px;
+        height: 540px;
+        border-radius: 20px;
+        transition: 0.2s;
+    }
+    .table h2
+    {
+        text-transform: uppercase;
+        font-size: 55px;
+    }
+    .table ul
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .table ul li
+    {
+        padding: 7px 0;
+        font-size: 30px;
+        list-style: none;
+    }
+
+    .price
+    {
+        font-size: 37px;
+        margin-bottom: 5px;
+    }
+
+    .price span
+    {
+        display: block;
+        font-size: 40px;
+    }
+    .table a
+    {
+        text-decoration: none;
+        color: #2c3e50;
+        border: 2px solid #2c3e50;
+        display: block;
+        padding: 10px 0;
+        margin: 10px 0;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-size: 22px;
+        transition: 0.25s linear
+    }
+    .table:hover {
+        transform: scale(1);
+    }
+/* -------------------------our gyms---------------------*/
+    .banner-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner-img h1 {
+        text-align: center;
+        color: #f9f9f9;
+        position: absolute;
+        top: 330px;
+        width: 100%;
+        font-family: Century Gothic, sans-serif;
+        font-size: 35px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        font-weight: 500;
+    }
+
+    .banner-img h2 {
+        display: none;
+    }
+
+    .our-gyms {
+        padding: 30px 0 0;
+    }
+
+    .gym-box {
+        margin: 15px 0;
+    }
+
+    .title-style h1 {
+        padding: 16px 0;
+        font-size: 30px;
+    }
+
+    .title-style {
+        margin: 80px auto 80px;
+        height: 65px;
+        width: 55%;
+        max-width: 1000px;
+        background: white;
+        position: relative;
+        font-family: "Copperplate Gothic Light", sans-serif, Arial;
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+    }
+
+    .title-style::after {
+        content: '';
+        height: 70px;
+        width: 170px;
+        background-color: #959494;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        z-index: -1;
+    }
+
+    .title-style::before {
+        content: '';
+        height: 70px;
+        width: 170px;
+        background-color: #959494;
+        position: absolute;
+        bottom: -10px;
+        right: -10px;
+        z-index: -1;
+    }
+
+    .gym-img {
+        border: 1px solid #ecebeb;
+        position: relative;
+        margin-bottom: 330px;
+        width: 100%;
+        height: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        transition: transform .2s; /* Animation */
+        /*font-size: 1px;*/
+    }
+
+    .gym-img:hover {
+        transform: scale(1.2);
+        z-index: 5;
+    }
+
+    .gym-img img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .block {
+        font-size: 20px;
+        border: 1px solid #ecebeb;
+        background-color: rgba(236, 235, 235, 0.7);
+        padding: 10px;
+        text-align: center;
+        position: absolute;
+        top: 188px;
+        left: 15px;
+        right: 15px;
+        height: 320px;
+    }
+    .block h2{
+        font-size: 22px;
+    }
+    /*----------------------Services--------------------------*/
+    .geometry{
+        display: none;
+    }
+    .service-img
+    {
+        border: 1px solid rgba(236, 235, 235, 0.9);
+        position: relative;
+        margin: 0 auto 15px ;
+        background-color: white;
+        width: 350px;
+        height: 510px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .service-img p
+    {
+        text-align: justify-all;
+        padding: 5px 25px;
+    }
+    .service-img h2
+    {
+        text-align: center;
+    }
+    .service-img img
+    {
+        float: left;
+        height: 250px;
+        width: 348px;
+        position:relative;
+    }
+    .col-centered
+    {
+        float: none;
+        margin: 0 auto;
+    }
+    .geometry img
+    {
+        position: absolute;
+        margin-left: 800px;
+        width: 500px;
+        height: 500px;
+    }
+    .service-img:hover
+    {
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+    /*---------------------------partners--------------------*/
+    .partners {
+        background-image: url("back.jpg");
+        background-size: cover;
+        font-family: "Copperplate Gothic Bold", Arial;
+    }
+
+    .partner-logo {
+        width: 150px;
+        height: 150px;
+        background: white;
+        border-radius: 50%;
+        margin: 20px auto 20px;
+        box-shadow: 0 2px 40px 0 rgba(110, 130, 208, .18);
+        text-align: center;
+        transition: transform .2s;
+    }
+
+    .partner-logo img {
+        width: 85px;
+        margin: 30px auto;
+    }
+
+    .partners-text h1 {
+        font-size: 30px;
+        padding: 25px 0;
+    }
+
+    .partners-text {
+
+        top: 20px;
+        margin: 80px auto 40px;
+        height: 80px;
+        width: 80%;
+        max-width: 700px;
+        background: rgba(238, 235, 235, 0.5);
+        position: relative;
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+    }
+
+    .partner-logo:hover {
+        transform: scale(1);
+        z-index: 5;
+    }
+    /*-----------------------------------maps---------------------------------*/
+    .google h1{
+        font-size: 30px;
+    }
+    #map {
+        height: 330px; /* The height is 400 pixels */
+        width: 460px; /* The width is the width of the web page */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .google {
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        background: none;
+        font-family: "Copperplate Gothic Bold", Arial;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1025px) and (max-width:1280px) {
+      /*---------------------------navbar-----------------------------*/
+    .navbar{
+        z-index: 1;
+    }
+    .navbar-brand {
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        text-align: center;
+    }
+    .navbar-brand img {
+        width: 70%;
+        height: 70%;
+    }
+    .right-menu{
+        display: none;
+    }
+    /*-----------------------------footer----------------------------*/
+    .footer {
+        background: #ecebeb;
+        /*margin-top: -130px;*/
+        /*Минус Высота футера*/
+        height: 130px;
+        /*Высота футера*/
+    }
+
+    .copyright {
+        margin: 50px auto;
+        border-top: 1px solid black; /* Линия сверху текста */
+        padding: 5px; /* Поля вокруг текста */
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer-icons {
+        /*display: none;*/
+
+    }
+
+    /*-----------------------------coaches-------------------------- */
+    .coaches {
+        /*padding-bottom: 10px;*/
+        height: 650px;
+        padding-bottom: 10px;
+    }
+
+    .geometrycoach {
+        display: none;
+    }
+
+    .coaches h1 {
+        text-transform: uppercase;
+        margin-top: 40px;
+        margin-bottom: 15px;
+        font-size: 27px;
+        font-family: "Copperplate Gothic Light", sans-serif, Arial;
+    }
+
+    .ps a {
+        display: inline-block;
+        margin: 10px 10px;
+        width: 180px;
+        height: 180px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    .seсtion1 {
+        width: 400px;
+        margin: auto;
+        font-size: 27px;
+        text-align: center;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .name {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 27px;
+    }
+
+    .border {
+        display: block;
+        margin: 15px auto 15px;
+        width: 160px;
+        height: 3px;
+        background: black;
+    }
+
+    /*---------------------------------gallery------------------------*/
+    .sliderdiv {
+
+        font-family: sans-serif;
+        overflow: hidden;
+        text-align: center;
+        height: 900px;
+    }
+
+    .slide img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel-inner {
+        width: 640px;
+        height: 360px;
+    }
+
+    #carouselExampleIndicators {
+        width: 640px;
+        height: 360px;
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carousel-indicators{
+        margin: auto;
+    }
+    .carousel-control-next{
+        margin: auto;
+    }
+    .carousel-control-prev{
+        margin: auto;
+    }
+    /*----------------------------pricing--------------------*/
+
+
+    .pricing-table
+    {
+        background: url(price.jpg);
+        background-size: cover;
+        max-width: 1280px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        height: 760px;
+        margin-bottom: 90px;
+    }
+    .col
+    {
+        margin-top: 55px;
+        flex: 25%;
+        padding: 10px;
+        width: 200px;
+        box-sizing: border-box;
+    }
+
+    .table
+    {
+        background: #fff;
+        padding: 10px 10px;
+        font-family: "montserrat", sans-serif;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 10px #00000070;
+        width: 400px;
+        height: 530px;
+        border-radius: 20px;
+        transition: 0.2s;
+    }
+    .table h2
+    {
+        text-transform: uppercase;
+        font-size: 35px;
+    }
+    .table ul
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .table ul li
+    {
+        padding: 20px 0;
+        font-size: 20px;
+        list-style: none;
+    }
+
+    .price
+    {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .price span
+    {
+        display: block;
+        font-size: 30px;
+    }
+    .table a
+    {
+        text-decoration: none;
+        color: #2c3e50;
+        border: 2px solid #2c3e50;
+        display: block;
+        padding: 10px 0;
+        margin: 10px 0;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-size: 22px;
+        transition: 0.25s linear
+    }
+    .table:hover {
+        transform: scale(1);
+    }
+/* -------------------------our gyms---------------------*/
+    .banner-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner-img h1 {
+        text-align: center;
+        color: #f9f9f9;
+        position: absolute;
+        top: 370px;
+        width: 100%;
+        font-family: Century Gothic, sans-serif;
+        font-size: 40px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        font-weight: 500;
+    }
+
+    .banner-img h2 {
+        display: none;
+        margin-top: 40px ;
+        font-size: 40px;
+        top: 370px;
+    }
+
+    .our-gyms {
+        padding: 30px 0 0;
+    }
+
+    .gym-box {
+        margin: 15px 0;
+    }
+
+    .title-style h1 {
+        padding: 16px 0;
+        font-size: 40px;
+    }
+
+    .title-style {
+        margin: 80px auto 80px;
+        height: 85px;
+        width: 55%;
+        max-width: 1000px;
+        background: white;
+        position: relative;
+        font-family: "Copperplate Gothic Light", sans-serif, Arial;
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+    }
+
+    .title-style::after {
+        content: '';
+        height: 70px;
+        width: 170px;
+        background-color: #959494;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        z-index: -1;
+    }
+
+    .title-style::before {
+        content: '';
+        height: 70px;
+        width: 170px;
+        background-color: #959494;
+        position: absolute;
+        bottom: -10px;
+        right: -10px;
+        z-index: -1;
+    }
+
+    .gym-img {
+        border: 1px solid #ecebeb;
+        position: relative;
+        margin-bottom: 330px;
+        width: 100%;
+        height: 240px;
+        margin-right: auto;
+        margin-left: auto;
+        transition: transform .2s; /* Animation */
+        /*font-size: 1px;*/
+    }
+
+    .gym-img:hover {
+        transform: scale(1.2);
+        z-index: 5;
+    }
+
+    .gym-img img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .block {
+        font-size: 20px;
+        border: 1px solid #ecebeb;
+        background-color: rgba(236, 235, 235, 0.7);
+        padding: 10px;
+        text-align: center;
+        position: absolute;
+        top: 195px;
+        left: 15px;
+        right: 15px;
+        height: 320px;
+    }
+    .block h2{
+        font-size: 28px;
+    }
+    /*----------------------Services--------------------------*/
+    .geometry{
+        display: none;
+    }
+    .service-img
+    {
+        border: 1px solid rgba(236, 235, 235, 0.9);
+        position: relative;
+        margin: 0 auto 15px ;
+        background-color: white;
+        width: 450px;
+        height: 510px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .service-img p
+    {
+        text-align: justify-all;
+        padding: 5px 25px;
+    }
+    .service-img h2
+    {
+        text-align: center;
+    }
+    .service-img img
+    {
+        float: left;
+        height: 250px;
+        width: 448px;
+        position:relative;
+    }
+    .col-centered
+    {
+        float: none;
+        margin: 0 auto;
+    }
+    .geometry img
+    {
+        position: absolute;
+        margin-left: 800px;
+        width: 500px;
+        height: 500px;
+    }
+    .service-img:hover
+    {
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+    /*---------------------------partners--------------------*/
+    .partners {
+        background-image: url("back.jpg");
+        background-size: cover;
+        font-family: "Copperplate Gothic Bold", Arial;
+    }
+
+    .partner-logo {
+        width: 170px;
+        height: 170px;
+        background: white;
+        border-radius: 50%;
+        margin: 40px auto 40px;
+        box-shadow: 0 2px 40px 0 rgba(110, 130, 208, .18);
+        text-align: center;
+        transition: transform .2s;
+    }
+
+    .partner-logo img {
+        width: 95px;
+        margin: 35px auto;
+    }
+
+    .partners-text h1 {
+        font-size: 30px;
+        padding: 25px 0;
+    }
+
+    .partners-text {
+
+        top: 20px;
+        margin: 80px auto 40px;
+        height: 80px;
+        width: 80%;
+        max-width: 700px;
+        background: rgba(238, 235, 235, 0.5);
+        position: relative;
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+    }
+
+    .partner-logo:hover {
+        transform: scale(1.2);
+        z-index: 5;
+    }
+    /*-----------------------------------maps---------------------------------*/
+    .google h1{
+        font-size: 30px;
+    }
+    #map {
+        height: 430px; /* The height is 400 pixels */
+        width: 560px; /* The width is the width of the web page */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .google {
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        background: none;
+        font-family: "Copperplate Gothic Bold", Arial;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1281px) and (max-width:1440px) {
+
+/* -------------------------our gyms---------------------*/
+    .banner-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner-img h1 {
+        text-align: center;
+        color: #f9f9f9;
+        position: absolute;
+        top: 400px;
+        width: 100%;
+        font-family: Century Gothic, sans-serif;
+        font-size: 50px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        font-weight: 500;
+    }
+
+    .banner-img h2 {
+        display: none;
+        margin-top: 40px ;
+        font-size: 40px;
+        top: 370px;
+    }
+
+
+    /*----------------------Services--------------------------*/
+    .geometry{
+        display: none;
+    }
+     .pricing-table
+    {
+        background: url(price.jpg);
+        background-size: cover;
+        max-width: 1500px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        height: 930px;
+        margin-bottom: 90px;
+    }
+
+    /*---------------------------partners--------------------*/
+    .partners {
+        background-image: url("back.jpg");
+        background-size: cover;
+        font-family: "Copperplate Gothic Bold", Arial;
+    }
+
+    .partner-logo {
+        width: 170px;
+        height: 170px;
+        background: white;
+        border-radius: 50%;
+        margin: 40px auto 40px;
+        box-shadow: 0 2px 40px 0 rgba(110, 130, 208, .18);
+        text-align: center;
+        transition: transform .2s;
+    }
+
+    .partner-logo img {
+        width: 95px;
+        margin: 35px auto;
+    }
+
+    .partners-text h1 {
+        font-size: 30px;
+        padding: 25px 0;
+    }
+
+    .partners-text {
+
+        top: 20px;
+        margin: 80px auto 40px;
+        height: 80px;
+        width: 80%;
+        max-width: 700px;
+        background: rgba(238, 235, 235, 0.5);
+        position: relative;
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+    }
+
+    .partner-logo:hover {
+        transform: scale(1.2);
+        z-index: 5;
+    }
+    /*-----------------------------------maps---------------------------------*/
+    .google h1{
+        font-size: 30px;
+    }
+    #map {
+        height: 430px; /* The height is 400 pixels */
+        width: 560px; /* The width is the width of the web page */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .google {
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        background: none;
+        font-family: "Copperplate Gothic Bold", Arial;
+}
+
+}
